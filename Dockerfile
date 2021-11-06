@@ -75,6 +75,8 @@ RUN  apt-get install -y ros-melodic-gazebo-ros-pkgs \
 RUN /bin/bash -c "cd ~/catkin_ws/src && git clone -b release-2.3 https://github.com/neuromeka-robotics/indy-ros"
 RUN /bin/bash -c "cd ~/catkin_ws/src && git clone https://github.com/neuromeka-robotics/indy-ros-examples"
 RUN /bin/bash -c "source /opt/ros/melodic/setup.bash;cd ~/catkin_ws; catkin_make"
+
+RUN apt-get install -y gedit vim  
 EXPOSE 80
 EXPOSE 443
 
