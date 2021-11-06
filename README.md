@@ -2,6 +2,11 @@
 ```bash
 bash build.sh
 bash start.sh
+roscore
 
-roslaunch azure_kinect_ros_driver kinect_rgbd.launch
+```
+
+```bash
+bash multi_terminal.sh
+roslaunch indy7_robotiq_moveit_config demo.launch
 ```
