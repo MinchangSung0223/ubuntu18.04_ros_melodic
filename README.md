@@ -1,4 +1,7 @@
 # ros_18.04_azure_kinect_docker
+참고 : http://docs.neuromeka.com/2.3.0/kr/ROS/section4a/
+
+
 ```bash
 bash build.sh
 bash start.sh
